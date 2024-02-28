@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.tw-recomended{
+    width: 348px;
+    height: auto;
+
+    background: #EFF1F1;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 0px;
+}
+
+.tw-recomended-title{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    color: rgb(15, 20, 25);
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+
+    margin-bottom: 8px;
+}
+
+.tw-recomended-more{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(29, 155, 240);
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+
+    margin-top: 8px;
+
+    cursor: pointer;
+}
+
+
+.tw-followCard{
+    width: 90%;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+    padding: 3% 5%;
+
+    transition: .3s all ease;
+}
+
+.tw-followCard:hover{
+    background: rgba(215, 219, 219, 0.4);
+}
+
+.tw-followCard-header{
+    display: flex;
+    gap: 10px;
+}
+
+.tw-followCard-header .tw-followCard-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.tw-followCard-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.tw-followCard-info-name{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(15, 20, 25);
+    overflow: hidden;
+
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.tw-followCard-info-userName{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(83, 100, 113);
+
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.tw-followCard-button{
+    background: black;
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff;
+
+    border: none;
+    border-radius: 20px;
+
+    width: 78px;
+    height: 32px;
+
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.tw-followCard-button:hover{
+    opacity: .9;
+}
